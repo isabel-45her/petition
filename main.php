@@ -16,9 +16,14 @@ $app = new \Slim\Slim();
 $app->contentType('application/json');
 
 
-$app->get('/test', function() use ($app) {
-  
-  echo "working";
+$app->post('/', function() use ($app) {
+session_start(); // Starting Session
+
+$result = $app->request->post('username');
+echo $result;
+
+
+
 
 });
 
