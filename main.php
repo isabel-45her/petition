@@ -72,7 +72,6 @@ $details = $app->request->post('details');
     $id = R::store($article);
   }else{$app->redirect('/login')}
 
-
 });
 
 
