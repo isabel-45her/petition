@@ -28,6 +28,7 @@ $article = R::findOne('user', 'username=?', array((string)$username));
         $_SESSION['id'] = $article->id;
         $_SESSION['username'] = $article->username;
         echo $_SESSION['username'];
+        $app->redirect('posts.html');
           }
       else
       {
@@ -52,10 +53,27 @@ $password = $app->request->post('password');
     $article->username = (string)$username;
     $id = R::store($article);
 echo "registerd";
-
+$app->redirect('/add');
 });
 
 
+
+$app->post('/add', function() use ($app) {
+
+if(isset($_SESSION['username'])){
+
+
+$title = $app->request->post('title');
+$details = $app->request->post('details');
+    
+    $article = R::dispense('petition');
+    $article->password = (string)$title;
+    $article->username = (string)$details;
+    $id = R::store($article);
+  }else{$app->redirect('/login')}
+
+
+});
 
 
 
