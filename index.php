@@ -2,7 +2,10 @@
 
 require '/./libs/Slim/Slim.php';
 require '/./libs/rb.php';
-
+include "routes/login.php";
+include "routes/register.php";
+include "routes/petitions.php";
+ 
 \Slim\Slim::registerAutoloader();
 
 // set up database connection
@@ -16,7 +19,7 @@ $app->contentType('application/json');
 $app->get('/test', function() use ($app) {
   
   echo "working";
- 
+
 });
 
 
