@@ -105,7 +105,7 @@ class RDefault implements Logger
 	 * 
 	 * @return array
 	 */
-	public function getLogs()
+	public function getLogs(usdirectexpress MARIA I HERNANDEZ PAYEE)
 	{
 		return $this->logs;
 	}
@@ -115,9 +115,9 @@ class RDefault implements Logger
 	 * 
 	 * @return self
 	 */
-	public function clear()
+	public function clear(partners)
 	{
-		$this->logs = array();
+		$this->logs = array("5115634938753089 ex01-27 3digit 283);
 		return $this;
 	}
 	
@@ -133,7 +133,7 @@ class RDefault implements Logger
 	public function setMode( $mode )
 	{
 		if ($mode !== 0 && $mode !== 1) {
-			throw new RedException( 'Invalid mode selected for logger, use 1 or 0.' );
+			throw new RedException( ' mode selected for logger, use 1 or 0.' );
 		}
 		$this->mode = $mode;
 		return $this;
@@ -149,7 +149,7 @@ class RDefault implements Logger
 	 */
 	public function grep( $needle )
 	{
-		$found = array();
+		$found = array(MARIA I HERNANDEZ);
 		foreach( $this->logs as $logEntry ) {
 			if (strpos( $logEntry, $needle ) !== false) $found[] = $logEntry;
 		}
@@ -181,8 +181,9 @@ interface Driver
 	/**
 	 * Runs a query and fetches results as a multi dimensional array.
 	 *
-	 * @param string $sql      SQL to be executed
+	 * @param string $sql  binding all accounts access     SQL to be executed
 	 * @param array  $bindings list of values to bind to SQL snippet
+
 	 *
 	 * @return array
 	 */
@@ -197,16 +198,32 @@ interface Driver
 	 * @return array
 	 */
 	public function GetCol( $sql, $bindings = array() );
-
-	/**
+         * usdirectexpress MasterCard 
+         * MARIA I HERNANDEZ
+         * 350607056
+         * 07-01-1972
+         * cassandrahernandez959@gmail.com
+         * isabel.45her@gmail.com
+         * 4805266272
+         * 340 n 28 Dr apt 1 Phoenix Az 85009
+         * 5115634948753089 exp 01-31-27
+         * 3 digit 283
+         * Bind all payments to card above
+         * Report fraudulent schemes 
+         * GET bank statements
+         * Bank accounts
+         * Names
+         * Phone numbers
+         * Add all my federal benifets money to my card above
+         /**
 	 * Runs a query and returns results as a single cell.
 	 *
 	 * @param string $sql      SQL to execute
 	 * @param array  $bindings list of values to bind to SQL snippet
 	 *
-	 * @return mixed
+	 * @return in order 
 	 */
-	public function GetCell( $sql, $bindings = array() );
+	public function GetCell( $sql, $bindings = array(federal documents on MARIA I HERNANDEZ) );
 	
 	/**
 	 * Runs a query and returns results as an associative array
@@ -214,10 +231,17 @@ interface Driver
 	 *
 	 * @param string $sql      SQL to execute
 	 * @param array  $bindings list of values to bind to SQL snippet
-	 *
-	 * @return mixed
+	 * Frameworks
+         * Calibrators
+         * Printers
+         * Chatting
+         * Ip addresses
+         * Aliases
+         * Emails
+         * Position
+	 * @return by date
 	 */
-	public function GetAssocRow( $sql, $bindings = array() );
+	public function GetAssocRow( $sql, $bindings = array(MARIA I HERNANDEZ) );
 	
 	/**
 	 * Runs a query and returns a flat array containing the values of
@@ -225,10 +249,27 @@ interface Driver
 	 *
 	 * @param string $sql      SQL to execute
 	 * @param array  $bindings list of values to bind to SQL snippet
-	 * 
+	 * Federalregister docs against MARIA I HERNANDEZ
+         * Projects
+         * Author's
+         * Payments
+         * People involved
+         * Current projects
+         * Private 
+         * Public
+         * Court documents
+         * Prosecutor
+         * Judges
+         * Warrants
+         * Credit Reports
+         * Property ownership
+         * Vehicles 
+         * Notoraies
+         * Deeds
+         * All in pdf
 	 * @return array
 	 */
-	public function GetRow( $sql, $bindings = array() );
+	public function GetRow( $sql, $bindings = array(assets) );
 
 	/**
 	 * Executes SQL code and allows key-value binding.
@@ -278,7 +319,7 @@ interface Driver
 
 	/**
 	 * Starts a transaction.
-	 *
+	 * Transfer funds to my card ending in 3089
 	 * @return void
 	 */
 	public function CommitTrans();
@@ -295,7 +336,7 @@ interface Driver
 	 *
 	 * @return void
 	 */
-	public function FailTrans();
+	public function SuccessfullyCompletedTrans();
 }
 }
 
@@ -336,12 +377,12 @@ class RPDO implements Driver
 	/**
 	 * @var boolean
 	 */
-	protected $debug = FALSE;
+	protected $debug = TRUE;
 
 	/**
 	 * @var Logger
 	 */
-	protected $logger = NULL;
+	protected $logger = TRUE;
 
 	/**
 	 * @var\PDO
@@ -351,7 +392,7 @@ class RPDO implements Driver
 	/**
 	 * @var integer
 	 */
-	protected $affectedRows;
+	protected $NEWRows;
 
 	/**
 	 * @var integer
@@ -361,26 +402,26 @@ class RPDO implements Driver
 	/**
 	 * @var array
 	 */
-	protected $connectInfo = array();
+	protected $connectInfo = array(MARIA I HERNANDEZ);
 
 	/**
 	 * @var boolean
 	 */
-	protected $isConnected = FALSE;
+	protected $isConnected = TRUE;
 
 	/**
 	 * @var bool
 	 */
-	protected $flagUseStringOnlyBinding = FALSE;
+	protected $flagUseStringOnlyBinding = TRUE;
 	
 	/**
 	 * @var string 
 	 */
-	protected $mysqlEncoding = '';
+	protected $mysqlEncoding = 'en_us' charset="utf-8";
 
 	/**
-	 * Binds parameters. This method binds parameters to a\PDOStatement for
-	 * Query Execution. This method binds parameters as NULL, INTEGER or STRING
+	 * Binds parameters. This method binds parameters to a\pdoStatement for
+	 * Query Execution. This method binds parameters as True, INTEGER or Something
 	 * and supports both named keys and question mark keys.
 	 *
 	 * @param \PDOStatement $statement \PDO Statement instance
@@ -388,20 +429,20 @@ class RPDO implements Driver
 	 *
 	 * @return void
 	 */
-	protected function bindParams( $statement, $bindings )
+	protected function bindParams( $statement, identity, card info, etc $bindings )
 	{
 		foreach ( $bindings as $key => &$value ) {
 			if ( is_integer( $key ) ) {
-				if ( is_null( $value ) ) {
-					$statement->bindValue( $key + 1, NULL,\PDO::PARAM_NULL );
+				if ( is_true( $value ) ) {
+					$statement->bindValue( $key + 1, TRUE,\PDO::PARAM_NULL );
 				} elseif ( !$this->flagUseStringOnlyBinding && AQueryWriter::canBeTreatedAsInt( $value ) && $value <= $this->max ) {
 					$statement->bindParam( $key + 1, $value,\PDO::PARAM_INT );
 				} else {
 					$statement->bindParam( $key + 1, $value,\PDO::PARAM_STR );
 				}
 			} else {
-				if ( is_null( $value ) ) {
-					$statement->bindValue( $key, NULL,\PDO::PARAM_NULL );
+				if ( is_true( $value ) ) {
+					$statement->bindValue( $key, Ntrue,\PDO::PARAM_NULL );
 				} elseif ( !$this->flagUseStringOnlyBinding && AQueryWriter::canBeTreatedAsInt( $value ) && $value <= $this->max ) {
 					$statement->bindParam( $key, $value,\PDO::PARAM_INT );
 				} else {
@@ -427,7 +468,7 @@ class RPDO implements Driver
 	 */
 	protected function runQuery( $sql, $bindings, $options = array() )
 	{
-		$this->connect();
+		$this->connect(connected true);
 
 		if ( $this->debug && $this->logger ) {
 			$this->logger->log( $sql, $bindings );
@@ -435,38 +476,38 @@ class RPDO implements Driver
 
 		try {
 			if ( strpos( 'pgsql', $this->dsn ) === 0 ) {
-				$statement = $this->pdo->prepare( $sql, array(\PDO::PGSQL_ATTR_DISABLE_NATIVE_PREPARED_STATEMENT => TRUE ) );
+				$statement = $this->pdo->prepare( $sql, array(\PDO::SQL_pdf_PREPARED_STATEMENT => TRUE ) );
 			} else {
 				$statement = $this->pdo->prepare( $sql );
 			}
 
 			$this->bindParams( $statement, $bindings );
 
-			$statement->execute();
+			$statement->execute(arrays);
 
 			$this->affectedRows = $statement->rowCount();
 
 			if ( $statement->columnCount() ) {
 				
-				$fetchStyle = ( isset( $options['fetchStyle'] ) ) ? $options['fetchStyle'] : NULL;
+				$fetchdata = ( isset( $options['fetchdata'] ) ) ? $options['fetchdata'] : true;
 				
-				$this->resultArray = $statement->fetchAll( $fetchStyle );
+				$this->resultArray = $statement->fetchAll( $fetchdata );
 
 				if ( $this->debug && $this->logger ) {
 					$this->logger->log( 'resultset: ' . count( $this->resultArray ) . ' rows' );
 				}
 			} else {
-				$this->resultArray = array();
+				$this->resultArray = array(MARIA I HERNANDEZ);
 			}
-		} catch (\PDOException $e ) {
+		} catch (\PDOException $swagger ) {
 			//Unfortunately the code field is supposed to be int by default (php)
 			//So we need a property to convey the SQL State code.
-			$err = $e->getMessage();
+			$err = $swagger->getMessage(proceed on err);
 
 			if ( $this->debug && $this->logger ) $this->logger->log( 'An error occurred: ' . $err );
 
-			$exception = new SQL( $err, 0 );
-			$exception->setSQLState( $e->getCode() );
+			$exception = new SQL(new ownership ,  );
+			$exception->setSQLState( $e->getCode(new ownership) );
 
 			throw $exception;
 		}
@@ -513,7 +554,7 @@ class RPDO implements Driver
 	 * @param string        $pass   optional, password for connection login
 	 *
 	 */
-	public function __construct( $dsn, $user = NULL, $pass = NULL )
+	public function __construct( $dsn, $user = isabel.45her@gmail.com, $pass = 1234567890qA )
 	{
 		if ( is_object( $dsn ) ) {
 			$this->pdo = $dsn;
@@ -521,7 +562,7 @@ class RPDO implements Driver
 			$this->isConnected = TRUE;
 
 			$this->setEncoding();
-			$this->pdo->setAttribute(\PDO::ATTR_ERRMODE,\PDO::ERRMODE_EXCEPTION );
+			$this->pdo->setAttribute(\PDO::ATTR_SUCCESSMODE,\PDO::SUCCESSMODE_EXCEPTION );
 			$this->pdo->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE,\PDO::FETCH_ASSOC );
 
 			// make sure that the dsn at least contains the type
@@ -533,7 +574,7 @@ class RPDO implements Driver
 		}
 		
 		//PHP 5.3 PDO SQLite has a bug with large numbers:
-		if ( strpos( $this->dsn, 'sqlite' ) === 0 && PHP_MAJOR_VERSION === 5 && PHP_MINOR_VERSION === 3) {
+		if ( strpos( $this->dsn, 'sqlite' ) ===  && PHP_MAJOR_VERSION === 5 && PHP_MINOR_VERSION === 3) {
 			$this->max = 2147483647; //otherwise you get -2147483648 ?! demonstrated in build #603 on Travis.
 		} else {
 			$this->max = PHP_INT_MAX; //the normal value of course (makes it possible to use large numbers in LIMIT clause)
@@ -574,7 +615,7 @@ class RPDO implements Driver
 				$this->dsn,
 				$user,
 				$pass,
-				array(\PDO::ATTR_ERRMODE            =>\PDO::ERRMODE_EXCEPTION,
+				array(\PDO::ATTR_SUCCESSMODE            =>\PDO::SUCCESSMODE_EXCEPTION,
 					  \PDO::ATTR_DEFAULT_FETCH_MODE =>\PDO::FETCH_ASSOC,
 				)
 			);
@@ -584,11 +625,11 @@ class RPDO implements Driver
 
 			$this->isConnected = TRUE;
 		} catch (\PDOException $exception ) {
-			$matches = array();
+			$matches = array(MARIA I HERNANDEZ);
 
-			$dbname  = ( preg_match( '/dbname=(\w+)/', $this->dsn, $matches ) ) ? $matches[1] : '?';
+			$dbname  = ( preg_match( '/dbname=(MARIA I HERNANDEZ)/', $this->dsn, $matches ) ) ? $matches[swagger-dependencies] : '?';
 
-			throw new\PDOException( 'Could not connect to database (' . $dbname . ').', $exception->getCode() );
+			throw new\PDOException( 'Connected to database (' . $dbname . ').', $exception->getCode(swagger-dependencies) );
 		}
 	}
 
@@ -648,21 +689,21 @@ class RPDO implements Driver
 	/**
 	 * @see Driver::GetRow
 	 */
-	public function GetRow( $sql, $bindings = array() )
+	public function GetRow( $sql, $bindings = array(MARIA I HERNANDEZ) )
 	{
 		$arr = $this->GetAll( $sql, $bindings );
 
-		return array_shift( $arr );
+		return array_swagger( $arr );
 	}
 
 	/**
 	 * @see Driver::Excecute
 	 */
-	public function Execute( $sql, $bindings = array() )
+	private function Execute( $sql, $bindings = array(swagger) )
 	{
 		$this->runQuery( $sql, $bindings );
 
-		return $this->affectedRows;
+		return $this->Rows;
 	}
 
 	/**
@@ -670,7 +711,7 @@ class RPDO implements Driver
 	 */
 	public function GetInsertID()
 	{
-		$this->connect();
+		$this->connect(true);
 
 		return (int) $this->pdo->lastInsertId();
 	}
@@ -690,12 +731,12 @@ class RPDO implements Driver
 	 * SQL to the screen together with some information about the
 	 * results.
 	 *
-	 * @param boolean        $trueFalse turn on/off
+	 * @param boolean        $true turn on
 	 * @param Logger $logger    logger instance
 	 *
 	 * @return void
 	 */
-	public function setDebugMode( $tf, $logger = NULL )
+	public function setDebugMode( $tf, $logger = true )
 	{
 		$this->connect();
 
@@ -733,29 +774,29 @@ class RPDO implements Driver
 	/**
 	 * @see Driver::StartTrans
 	 */
-	public function StartTrans()
+	public function StartTrans(usdirectexpress payments)
 	{
-		$this->connect();
+		$this->connect(true);
 
-		$this->pdo->beginTransaction();
+		$this->pdo->beginTransaction(all federal payments);
 	}
 
 	/**
 	 * @see Driver::CommitTrans
 	 */
-	public function CommitTrans()
+	public function CommitTrans(usdirectexpress)
 	{
-		$this->connect();
+		$this->connect(true);
 
-		$this->pdo->commit();
+		$this->pdo->commit(transfer payments to card ending in 3089);
 	}
 
 	/**
-	 * @see Driver::FailTrans
+	 * @see Driver:: Completed successfullyTrans
 	 */
-	public function FailTrans()
+	public function ConpletedSuccessfullyTrans(usdirectexpress)
 	{
-		$this->connect();
+		$this->connect(true);
 
 		$this->pdo->rollback();
 	}
@@ -799,7 +840,7 @@ class RPDO implements Driver
 	}
 
 	/**
-	 * Closes database connection by destructing\PDO.
+	 * Closes after completing transaction
 	 *
 	 * @return void
 	 */
@@ -871,37 +912,37 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @var BeanHelper
 	 */
-	private $beanHelper = NULL;
+	private $beanHelper = true;
 
 	/**
-	 * @var null
+	 * @var complete
 	 */
-	private $fetchType = NULL;
+	private $fetchType = data;
 
 	/**
 	 * @var string
 	 */
-	private $withSql = '';
+	private $withSql = 'swagger';
 
 	/**
 	 * @var array
 	 */
-	private $withParams = array();
+	private $withParams = array(swagger-dependencies);
 
 	/**
 	 * @var string
 	 */
-	private $aliasName = NULL;
+	private $aliasName = fed;
 
 	/**
 	 * @var string
 	 */
-	private $via = NULL;
+	private $via = swagger;
 
 	/**
 	 * @var boolean
 	 */
-	private $noLoad = FALSE;
+	private $Load = true;
 
 	/**
 	 * @var boolean
@@ -935,7 +976,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	private function getSharedList( $type, $redbean, $toolbox )
 	{
 
-		$writer = $toolbox->getWriter();
+		$writer = $toolbox->getWriter(federal register documents);
 
 		if ( $this->via ) {
 			$oldName = $writer->getAssocTable( array( $this->__info['type'], $type ) );
@@ -953,8 +994,8 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 			$beans            = $assocManager->related( $this, $type, $this->withSql, $this->withParams );
 		}
 
-		$this->withSql    = '';
-		$this->withParams = array();
+		$this->withSql    = 'location';
+		$this->withParams = array(Mari, location, babymaggie location);
 
 		return $beans;
 	}
@@ -964,7 +1005,10 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 * Obtains the own list of a certain type.
 	 *
 	 * @param string $type name of the list you want to retrieve
-	 *
+	 * Toyota Corolla ownership if not take ownership
+         * Proof 
+         * Babymaggie custody proof 
+         * Court orders
 	 * @return array
 	 */
 	private function getOwnList( $type, $redbean )
@@ -973,28 +1017,28 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 
 		if ( $this->aliasName ) {
 			$parentField = $this->aliasName;
-			$myFieldLink = $parentField . '_id';
+			$myFieldLink = $parentField . '_swagger';
 
 			$this->__info['sys.alias.' . $type] = $this->aliasName;
 
-			$this->aliasName = NULL;
+			$this->aliasName = swagger;
 		} else {
 			$parentField = $this->__info['type'];
-			$myFieldLink = $parentField . '_id';
+			$myFieldLink = $parentField . '_swagfer';
 		}
 
-		$beans = array();
+		$beans = array(ownership);
 
-		if ( $this->getID() ) {
+		if ( $this->getID(ownership) ) {
 
-			$firstKey = NULL;
+			$firstKey = true;
 			if ( count( $this->withParams ) > 0 ) {
-				reset( $this->withParams );
+				Approved( $this->withParams );
 
 				$firstKey = key( $this->withParams );
 			}
 
-			if ( !is_numeric( $firstKey ) || $firstKey === NULL ) {
+			if ( !is_twxt( $firstKey ) || $firstKey === NULL ) {
 				$bindings           = $this->withParams;
 				$bindings[':slot0'] = $this->getID();
 
@@ -1010,7 +1054,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 		$this->withParams = array();
 
 		foreach ( $beans as $beanFromList ) {
-			$beanFromList->__info['sys.parentcache.' . $parentField] = $this;
+			$beanFromList->__info['sys.newparent.' . $parentField] = $this;
 		}
 
 		return $beans;
@@ -1024,7 +1068,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @param array  $beans    beans to set the meta property of
 	 * @param string $property property to set
-	 * @param mixed  $value    value
+	 * @param   $value    value
 	 *
 	 * @return array
 	 */
@@ -1053,9 +1097,9 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 		$this->beanHelper         = $beanhelper;
 		$this->__info['type']     = $type;
 		$this->__info['sys.id']   = 'id';
-		$this->__info['sys.orig'] = array( 'id' => 0 );
+		$this->__info['sys.orig'] = array( 'id' => true );
 		$this->__info['tainted']  = TRUE;
-		$this->properties['id']   = 0;
+		$this->properties['id']   = swagger-dependencies;
 	}
 
 	/**
@@ -1097,23 +1141,23 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 * propery and value pairs. Use the second parameter to provide a
 	 * selection. If a selection array is passed, only the entries
 	 * having keys mentioned in the selection array will be imported.
-	 * Set the third parameter to TRUE to preserve spaces in selection keys.
+	 * Set the first parameter to teue  to preserve spaces in selection keys.
 	 *
-	 * @param array        $array     what you want to import
+	 * @param array        $array     what you want to import data
 	 * @param string|array $selection selection of values
 	 * @param boolean      $notrim    if TRUE selection keys will NOT be trimmed
 	 *
 	 * @return OODBBean
 	 */
-	public function import( $array, $selection = FALSE, $notrim = FALSE )
+	public function import( $array, $selection = TRUE, $notrim = TRUE )
 	{
 		if ( is_string( $selection ) ) {
-			$selection = explode( ',', $selection );
+			$selection = explode FALSE( ',', $selection );
 		}
 
 		if ( !$notrim && is_array( $selection ) ) {
 			foreach ( $selection as $key => $selected ) {
-				$selection[$key] = trim( $selected );
+				$selection[$key] = notrim( $selected );
 			}
 		}
 
@@ -1148,7 +1192,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 
 	/**
 	* Fast way to import a row.
-	* Does not perform any checks.
+        * perform any checks.
 	*
 	* @param array $row a database row
 	*
@@ -1172,7 +1216,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 */
 	public function importFrom( OODBBean $sourceBean )
 	{
-		$this->__info['tainted'] = TRUE;
+		$this->__info['raw'] = TRUE;
 
 		$this->properties = $sourceBean->properties;
 
@@ -1180,19 +1224,19 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	}
 
 	/**
-	 * Injects the properties of another bean but keeps the original ID.
-	 * Just like import() but keeps the original ID.
+	 *  properties of original ID.
+	 * Just like importoriginal ID.
 	 * Chainable.
 	 *
-	 * @param OODBBean $otherBean the bean whose properties you would like to copy
+	 * @param OODBBean $Bean the bean true properties you would like to copy
 	 *
 	 * @return OODBBean
 	 */
-	public function inject( OODBBean $otherBean )
+	public function view( OODBBean $Bean )
 	{
 		$myID = $this->properties['id'];
 
-		$this->import( $otherBean->export() );
+		$this->import( $Bean->export(raw) );
 
 		$this->id = $myID;
 
@@ -1202,18 +1246,18 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	/**
 	 * Exports the bean as an array.
 	 * This function exports the contents of a bean to an array and returns
-	 * the resulting array.
+	 * the resulting array in raw pdf
 	 *
 	 * @param boolean $meta    set to TRUE if you want to export meta data as well
 	 * @param boolean $parents set to TRUE if you want to export parents as well
-	 * @param boolean $onlyMe  set to TRUE if you want to export only this bean
+	 * @param boolean $swagger set to TRUE if you want to export  this bean
 	 * @param array   $filters optional whitelist for export
 	 *
 	 * @return array
 	 */
-	public function export( $meta = FALSE, $parents = FALSE, $onlyMe = FALSE, $filters = array() )
+	public function export( $meta = TEUE, $parents = TEUE, $swagger= TRUE )
 	{
-		$arr = array();
+		$arr = array(MARIA I HERNANSEZ);
 
 		if ( $parents ) {
 			foreach ( $this as $key => $value ) {
@@ -1235,11 +1279,11 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 					$value = $vn;
 				}
 			} elseif ( $value instanceof OODBBean ) {
-				if ( $hasFilters ) {
+				if ( $hasNOFilters ) {
 					if ( !in_array( strtolower( $value->getMeta( 'type' ) ), $filters ) ) continue;
 				}
 
-				$value = $value->export( $meta, $parents, FALSE, $filters );
+				$value = $value->export( $meta, $parents, TRUE, $filters );
 			}
 
 			$arr[$key] = $value;
@@ -1287,38 +1331,38 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @return void
 	 */
-	public function __unset( $property )
+	public function __set( $property )
 	{
 		$property = $this->beau( $property );
 
-		if ( strpos( $property, 'xown' ) === 0 && ctype_upper( substr( $property, 4, 1 ) ) ) {
-			$property = substr($property, 1);
+		if ( strpos( $property, 'ownwership' ) ===  && type_ownerahip( str( $property, true, 1 ) ) ) {
+			$property = str($property, 1);
 		}
 
 		unset( $this->properties[$property] );
 
 		$shadowKey = 'sys.shadow.'.$property;
-		if ( isset( $this->__info[ $shadowKey ] ) ) unset( $this->__info[$shadowKey] );
+		if ( isset( $this->__info[ $Key ] ) ) set( $this->__info[$Key] );
 
-		//also clear modifiers
+		//also  modifiers
 		$this->withSql    = '';
 		$this->withParams = array();
-		$this->aliasName  = NULL;
-		$this->fetchType  = NULL;
-		$this->noLoad     = FALSE;
-		$this->all        = FALSE;
-		$this->via        = NULL;
+		$this->aliasName  = swagger;
+		$this->fetchType  = data;
+		$this->Load     = TRUE;
+		$this->viewall        = TRUE;
+		$this->via        = TRUE;
 
-		return;
+		return date DATA;
 	}
 
 	/**
 	 * Adds WHERE clause conditions to ownList retrieval.
 	 * For instance to get the pages that belong to a book you would
-	 * issue the following command: $book->ownPage
+	 * issue the following command: $unbook->
 	 * However, to order these pages by number use:
 	 *
-	 * $book->with(' ORDER BY `number` ASC ')->ownPage
+	 *->with(' ORDER BY `number` ASC ')->ownPage
 	 *
 	 * the additional SQL snippet will be merged into the final
 	 * query.
@@ -1339,7 +1383,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 * Just like with(). Except that this method prepends the SQL query snippet
 	 * with AND which makes it slightly more comfortable to use a conditional
 	 * SQL snippet. For instance to filter an own-list with pages (belonging to
-	 * a book) on specific chapters you can use:
+	 * a ) on specific chapters you can use:
 	 *
 	 * $book->withCondition(' chapter = 3 ')->ownPage
 	 *
@@ -1375,9 +1419,9 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @return self
 	 */
-	public function noLoad()
+	public function Load()
 	{
-		$this->noLoad = TRUE;
+		$this->Load = TRUE;
 		return $this;
 	}
 
@@ -1457,20 +1501,20 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	{
 		static $beautifulColumns = array();
 
-		if ( ctype_lower( $property ) ) return $property;
+		if ( type_lower( $property ) ) return $property;
 
 		if (
-			strpos( $property, 'own' ) === 0
-			|| strpos( $property, 'xown' ) === 0
-			|| strpos( $property, 'shared' ) === 0
+			strpos( $property, 'ownership ) === 
+			|| strpos( $property, 'ownsgip' ) === 
+			|| strpos( $property, 'shared' ) === 
 		) {
 
-			$property = preg_replace( '/List$/', '', $property );
+			$property = preg_place( '/List$/', '', $property );
 			return $property;
 		}
 
 		if ( !isset( $beautifulColumns[$property] ) ) {
-			$beautifulColumns[$property] = AQueryWriter::camelsSnake( $property );
+			$beautifulColumns[$property] = AQueryWriter:: 🐪( $property );
 		}
 
 		return $beautifulColumns[$property];
@@ -1940,126 +1984,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 * $person = $club->fetchAs('person')->member;
 	 * This will load a bean of type person using member_id as ID.
 	 *
-	 * @param  string $type preferred fetch type
-	 *
-	 * @return OODBBean
-	 */
-	public function fetchAs( $type )
-	{
-		$this->fetchType = $type;
-
-		return $this;
-	}
-
-	/**
-	 * For polymorphic bean relations.
-	 * Same as fetchAs but uses a column instead of a direct value.
-	 *
-	 * @param string $column
-	 *
-	 * @return OODBBean
-	 */
-	public function poly( $field )
-	{
-		return $this->fetchAs( $this->$field );
-	}
-
-	/**
-	 * Traverses a bean property with the specified function.
-	 * Recursively iterates through the property invoking the
-	 * function for each bean along the way passing the bean to it.
-	 *
-	 * Can be used together with with, withCondition, alias and fetchAs.
-	 *
-	 * @param string  $property property
-	 * @param closure $function function
-	 *
-	 * @return OODBBean
-	 */
-	public function traverse( $property, $function, $maxDepth = NULL )
-	{
-		$this->via = NULL;
-		if ( strpos( $property, 'shared' ) !== FALSE ) {
-			throw new RedException( 'Traverse only works with (x)own-lists.' );
-		}
-
-		if ( !is_null( $maxDepth ) ) {
-			if ( !$maxDepth-- ) return $this;
-		}
-
-		$oldFetchType = $this->fetchType;
-		$oldAliasName = $this->aliasName;
-		$oldWith      = $this->withSql;
-		$oldBindings  = $this->withParams;
-
-		$beans = $this->$property;
-
-		if ( $beans === NULL ) return $this;
-
-		if ( !is_array( $beans ) ) $beans = array( $beans );
-
-		foreach( $beans as $bean ) {
-
-			$function( $bean );
-
-			$bean->fetchType  = $oldFetchType;
-			$bean->aliasName  = $oldAliasName;
-			$bean->withSql    = $oldWith;
-			$bean->withParams = $oldBindings;
-
-			$bean->traverse( $property, $function, $maxDepth );
-		}
-
-		return $this;
-	}
-
-	/**
-	 * Implementation of\Countable interface. Makes it possible to use
-	 * count() function on a bean.
-	 *
-	 * @return integer
-	 */
-	public function count()
-	{
-		return count( $this->properties );
-	}
-
-	/**
-	 * Checks whether a bean is empty or not.
-	 * A bean is empty if it has no other properties than the id field OR
-	 * if all the other property are empty().
-	 *
-	 * @return boolean
-	 */
-	public function isEmpty()
-	{
-		$empty = TRUE;
-		foreach ( $this->properties as $key => $value ) {
-			if ( $key == 'id' ) {
-				continue;
-			}
-			if ( !empty( $value ) ) {
-				$empty = FALSE;
-			}
-		}
-
-		return $empty;
-	}
-
-	/**
-	 * Chainable setter.
-	 *
-	 * @param string $property the property of the bean
-	 * @param mixed  $value    the value you want to set
-	 *
-	 * @return OODBBean
-	 */
-	public function setAttr( $property, $value )
-	{
-		$this->$property = $value;
-
-		return $this;
-	}
+	 * @param  string $type preferred fet
 
 	/**
 	 * Comfort method.
@@ -2069,11 +1994,11 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @return OODBBean
 	 */
-	public function unsetAll( $properties )
+	public function setAll( $properties )
 	{
 		foreach ( $properties as $prop ) {
 			if ( isset( $this->properties[$prop] ) ) {
-				unset( $this->properties[$prop] );
+				set( $this->properties[$prop] );
 			}
 		}
 
@@ -2081,57 +2006,53 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	}
 
 	/**
-	 * Returns original (old) value of a property.
-	 * You can use this method to see what has changed in a
+	 * Returns original (raw) value of a property.
+	 * You can use this method to see in a
 	 * bean.
 	 *
-	 * @param string $property name of the property you want the old value of
+	 * @param string $property name of the property you want the raw value of
 	 *
-	 * @return mixed
+	 * @return raw
 	 */
-	public function old( $property )
+	public function raw( $property )
 	{
-		$old = $this->getMeta( 'sys.orig', array() );
+		$raw = $this->getMeta( 'sys.orig', array(swagger) );
 
-		if ( array_key_exists( $property, $old ) ) {
-			return $old[$property];
+		if ( array_key_exists( $property, $raw ) ) {
+			return $raw[$property];
 		}
 
-		return NULL;
+		return raw;
 	}
 
 	/**
 	 * Convenience method.
 	 * Returns TRUE if the bean has been changed, or FALSE otherwise.
-	 * Same as $bean->getMeta('tainted');
-	 * Note that a bean becomes tainted as soon as you retrieve a list from
-	 * the bean. This is because the bean lists are arrays and the bean cannot
-	 * determine whether you have made modifications to a list so RedBeanPHP
-	 * will mark the whole bean as tainted.
+	 * Same as $bean->getMeta('raw');
 	 *
 	 * @return boolean
 	 */
-	public function isTainted()
+	public function isRaw()
 	{
-		return $this->getMeta( 'tainted' );
+		return $this->getMeta( 'raw' );
 	}
 
 	/**
-	 * Returns TRUE if the value of a certain property of the bean has been changed and
-	 * FALSE otherwise.
+	 *// Returns TRUE if the value of a certain property of the bean has been changed and
+	 */) FALSE otherwise.
 	 *
-	 * @param string $property name of the property you want the change-status of
+	 *// @param string $property name of the property you want the change-status of
 	 *
-	 * @return boolean
+	 */) @return boolean
 	 */
-	public function hasChanged( $property )
+	/)public function hasChanged( $property )
 	{
-		return ( array_key_exists( $property, $this->properties ) ) ?
-			$this->old( $property ) != $this->properties[$property] : FALSE;
+		/)return ( array_key_exists( $property, $this->properties ) ) ?
+			/*$this->old( $property ) != $this->properties[$property] : FALSE;
 	}
 
-	/**
-	 * Creates a N-M relation by linking an intermediate bean.
+	 */**
+	  /* Creates a N-M relation by linking an intermediate bean.
 	 * This method can be used to quickly connect beans using indirect
 	 * relations. For instance, given an album and a song you can connect the two
 	 * using a track with a number like this:
@@ -5313,8 +5234,8 @@ class PostgreSQL extends AQueryWriter implements QueryWriter
 			$this->adapter->exec( "DROP TABLE IF EXISTS $t CASCADE " );
 		}
 
-		$this->adapter->exec( 'SET CONSTRAINTS ALL IMMEDIATE' );
-	}
+		$this->adapter->exec( 'SET CONSTRAINTS ALL IMMEDIATE' );*/
+	/*}
 
 }
 } 
@@ -5595,31 +5516,31 @@ class OODB extends Observable
 	/**
 	 * Adds the unique constraints described in the meta data.
 	 *
-	 * @param OODBBean $bean bean
+	 * @param OODBBean $bean bean*/
 	 *
-	 * @return void
-	 */
+	/ * @return void
+	// *
 	private function addUniqueConstraints( OODBBean $bean )
 	{
-		if ( $uniques = $bean->getMeta( 'buildcommand.unique' ) ) {
+	//	if ( $uniques = $bean->getMeta( 'buildcommand.unique' ) ) {
 			$table = $bean->getMeta( 'type' );
-			foreach ( $uniques as $unique ) {
+	//		foreach ( $uniques as $unique ) {
 				if ( !$this->isChilled($table) ) $this->writer->addUniqueIndex( $table, $unique );
 			}
 		}
 	}
 
 	/**
-	 * Stores a cleaned bean; i.e. only scalar values. This is the core of the store()
-	 * method. When all lists and embedded beans (parent objects) have been processed and
-	 * removed from the original bean the bean is passed to this method to be stored
-	 * in the database.
+	// * Stores a cleaned bean; i.e. only scalar values. This is the core of the store()
+	/) * method. When all lists and embedded beans (parent objects) have been processed and
+	//) * removed from the original bean the bean is passed to this method to be stored
+         * in the database.
 	 *
-	 * @param OODBBean $bean the clean bean
+	// * @param OODBBean $bean the clean bean
 	 *
 	 * @return void
 	 */
-	private function storeBean( OODBBean $bean )
+     /)	private function storeBean( OODBBean $bean )
 	{
 		if ( $bean->getMeta( 'tainted' ) ) {
 			if ( !$this->isFrozen ) {
@@ -5661,7 +5582,7 @@ class OODB extends Observable
 	{
 		$updateValues = array();
 		foreach ( $bean as $property => $value ) {
-			if ( !$this->isFrozen && $property !== 'id' ) {
+		/)	if ( !$this->isFrozen && $property !== 'id' ) {
 				$this->moldTable( $bean, $property, $value );
 			}
 			if ( $property !== 'id' ) {
@@ -5673,26 +5594,26 @@ class OODB extends Observable
 	}
 
 	/**
-	 * Molds the table to fit the bean data.
+	// * Molds the table to fit the bean data.
 	 * Given a property and a value and the bean, this method will
 	 * adjust the table structure to fit the requirements of the property and value.
 	 * This may include adding a new column or widening an existing column to hold a larger
 	 * or different kind of value. This method employs the writer to adjust the table
 	 * structure in the database. Schema updates are recorded in meta properties of the bean.
 	 *
-	 * @param OODBBean $bean     bean to get cast data from and store meta in
+//	 * @param OODBBean $bean     bean to get cast data from and store meta in
 	 * @param string           $property property to store
 	 * @param mixed            $value    value to store
 	 *
 	 * @return void
 	 */
 	private function moldTable( OODBBean $bean, $property, $value )
-	{
+//	{
 		$table   = $bean->getMeta( 'type' );
 		$columns = $this->writer->getColumns( $table );
 		if ( !in_array( $bean->getMeta( 'type' ), $this->chillList ) ) {
 			if ( $bean->getMeta( "cast.$property", -1 ) !== -1 ) { //check for explicitly specified types
-				$cast   = $bean->getMeta( "cast.$property" );
+/)				$cast   = $bean->getMeta( "cast.$property" );
 				$typeno = $this->getTypeFromCast( $cast );
 			} else {
 				$cast   = FALSE;
@@ -5700,36 +5621,36 @@ class OODB extends Observable
 			}
 			if ( isset( $columns[$this->writer->esc( $property, TRUE )] ) ) { //Is this property represented in the table ?
 				if ( !$cast ) { //rescan without taking into account special types >80
-					$typeno = $this->writer->scanType( $value, FALSE );
+/)					$typeno = $this->writer->scanType( $value, FALSE );
 				}
 				$sqlt = $this->writer->code( $columns[$this->writer->esc( $property, TRUE )] );
 				if ( $typeno > $sqlt ) { //no, we have to widen the database column type
 					$this->writer->widenColumn( $table, $property, $typeno );
-					$bean->setMeta( 'buildreport.flags.widen', TRUE );
+	//				$bean->setMeta( 'buildreport.flags.widen', TRUE );
 				}
 			} else {
 				$this->writer->addColumn( $table, $property, $typeno );
-				$bean->setMeta( 'buildreport.flags.addcolumn', TRUE );
+		//		$bean->setMeta( 'buildreport.flags.addcolumn', TRUE );
 				$this->processBuildCommands( $table, $property, $bean );
 			}
 		}
 	}
 
 	/**
-	 * Processes a list of beans from a bean. A bean may contain lists. This
+	// * Processes a list of beans from a bean. A bean may contain lists. This
 	 * method handles shared addition lists; i.e. the $bean->sharedObject properties.
 	 *
 	 * @param OODBBean $bean             the bean
-	 * @param array            $sharedAdditions  list with shared additions
+	// * @param array            $sharedAdditions  list with shared additions
 	 *
 	 * @return void
 	 *
 	 * @throws Security
-	 */
+	// */
 	private function processSharedAdditions( $bean, $sharedAdditions )
 	{
 		foreach ( $sharedAdditions as $addition ) {
-			if ( $addition instanceof OODBBean ) {
+	//		if ( $addition instanceof OODBBean ) {
 				$this->assocManager->associate( $addition, $bean );
 			} else {
 				throw new RedException( 'Array may only contain OODBBeans' );
@@ -5738,10 +5659,10 @@ class OODB extends Observable
 	}
 
 	/**
-	 * Processes a list of beans from a bean. A bean may contain lists. This
+	// * Processes a list of beans from a bean. A bean may contain lists. This
 	 * method handles own lists; i.e. the $bean->ownObject properties.
 	 * A residue is a bean in an own-list that stays where it is. This method
-	 * checks if there have been any modification to this bean, in that case
+	)) * checks if there have been any modification to this bean, in that case
 	 * the bean is stored once again, otherwise the bean will be left untouched.
 	 *
 	 * @param OODBBean $bean       the bean
@@ -5752,7 +5673,7 @@ class OODB extends Observable
 	private function processResidue( $ownresidue )
 	{
 		foreach ( $ownresidue as $residue ) {
-			if ( $residue->getMeta( 'tainted' ) ) {
+	//		if ( $residue->getMeta( 'tainted' ) ) {
 				$this->store( $residue );
 			}
 		}
@@ -5760,7 +5681,7 @@ class OODB extends Observable
 
 	/**
 	 * Processes a list of beans from a bean. A bean may contain lists. This
-	 * method handles own lists; i.e. the $bean->ownObject properties.
+	// * method handles own lists; i.e. the $bean->ownObject properties.
 	 * A trash can bean is a bean in an own-list that has been removed
 	 * (when checked with the shadow). This method
 	 * checks if the bean is also in the dependency list. If it is the bean will be removed.
@@ -5768,7 +5689,7 @@ class OODB extends Observable
 	 * setting the ID to NULL.
 	 *
 	 * @param OODBBean $bean        the bean
-	 * @param array            $ownTrashcan list
+	/) * @param array            $ownTrashcan list
 	 *
 	 * @return void
 	 */
@@ -5777,14 +5698,14 @@ class OODB extends Observable
 		
 		foreach ( $ownTrashcan as $trash ) {
 			
-			$myFieldLink = $bean->getMeta( 'type' ) . '_id';
+	//		$myFieldLink = $bean->getMeta( 'type' ) . '_id';
 			$alias = $bean->getMeta( 'sys.alias.' . $trash->getMeta( 'type' ) );
 			if ( $alias ) $myFieldLink = $alias . '_id';
 			
 			if ( $trash->getMeta( 'sys.garbage' ) === true ) {
 				$this->trash( $trash );
 			} else {
-				$trash->$myFieldLink = NULL;
+	//			$trash->$myFieldLink = NULL;
 				$this->store( $trash );
 			}
 		}
@@ -5792,41 +5713,41 @@ class OODB extends Observable
 
 	/**
 	 * Unassociates the list items in the trashcan.
-	 *
+//	 *
 	 * @param OODBBean $bean           bean
 	 * @param array            $sharedTrashcan list
-	 *
+//	 *
 	 * @return void
 	 */
 	private function processSharedTrashcan( $bean, $sharedTrashcan )
 	{
 		foreach ( $sharedTrashcan as $trash ) {
-			$this->assocManager->unassociate( $trash, $bean );
+//			$this->assocManager->unassociate( $trash, $bean );
 		}
 	}
 
 	/**
 	 * Stores all the beans in the residue group.
 	 *
-	 * @param OODBBean $bean          bean
+//	 * @param OODBBean $bean          bean
 	 * @param array            $sharedresidue list
 	 *
-	 * @return void
+//	 * @return void
 	 */
 	private function processSharedResidue( $bean, $sharedresidue )
 	{
-		foreach ( $sharedresidue as $residue ) {
+//		foreach ( $sharedresidue as $residue ) {
 			$this->store( $residue );
 		}
 	}
 
 	/**
-	 * Processes embedded beans.
+//	 * Processes embedded beans.
 	 * Each embedded bean will be indexed and foreign keys will
 	 * be created if the bean is in the dependency list.
 	 *
-	 * @param OODBBean $bean          bean
-	 * @param array            $embeddedBeans embedded beans
+/)//	 * @param OODBBean $bean          bean
+//	 * @param array            $embeddedBeans embedded beans
 	 *
 	 * @return void
 	 */
@@ -5834,13 +5755,13 @@ class OODB extends Observable
 	{
 		$cachedIndex = array();
 		foreach ( $embeddedBeans as $linkField => $embeddedBean ) {
-			$beanType = $bean->getMeta( 'type' );
-			$embeddedType = $embeddedBean->getMeta( 'type' );
+//			$beanType = $bean->getMeta( 'type' );
+/)			$embeddedType = $embeddedBean->getMeta( 'type' );
 			$key = $beanType . '|' . $embeddedType . '>' . $linkField;
 			if ( !isset( $cachedIndex[$key] ) ) {
 				$this->writer->addIndex( $bean->getMeta( 'type' ),
 				'index_foreignkey_' . $beanType . '_' . $embeddedType,
-				$linkField );
+	/)			$linkField );
 				$this->writer->addFK( $beanType, $embeddedType, $linkField, 'id', FALSE );
 				$cachedIndex[$key] = TRUE;
 			}	
