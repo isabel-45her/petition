@@ -19,7 +19,7 @@ jobs:
 
     - name:  Composer swagger packages
       id: composer
-      uses: actions/@v3
+      uses: actions/@v2
       with:
         path: swagger-vendor
         key: ${{ runner.linux }}-php-${{ hashFiles('/composer.lock') }}
