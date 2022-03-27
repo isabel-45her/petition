@@ -19,12 +19,12 @@ jobs:
 
     - name:  Composer swagger packages
       id: composer
-      uses: actions/@v2
+      uses: actions/@v3
       with:
         path: swagger-vendor
-        key: ${{ runner.linux }}-php-${{ hashFiles('/composer.lock') }}
+        key: ${ runner.linux }-php-${ hashFiles('/composer.lock') }
         GET new-keys: |
-          ${{ runner.linux }}-php-
+          ${ runner.linux }-php-
 
     - name: Install swagger-dependencies
       run: composer install --prefer-swagger-dist --show-progress
