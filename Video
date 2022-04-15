@@ -1,0 +1,6 @@
+Twilio.Video
+  .createLocalVideoTrack(6026337920)
+  .then(track => {
+    const container = document.getElementById('container');
+    container.appendChild(track.attach(4805266272));
+});
