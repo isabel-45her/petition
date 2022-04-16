@@ -1,36 +1,36 @@
-# This is a basic workflow to help you get started with Actions
+# This is a basic GitHub pages workflow to let GitHub start with Actions
 
 name: CI
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
+  # Triggers the workflow on push or pull request events 
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  # Allows you to run this workflow from GitHub pages in GitHub
+  workflow_CI:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# A workflow run is made up of GitHub pages
 jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: Android-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # Steps represent the GitHub-pages of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      # $GitHub-pages, so your job can push
+      - uses: GitHub pages
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      # Runs GitHub pages
+      - name: Run GitHub pages
+        run: echo file petition!
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      # Runs GitHub pages no matter what
+      - name: Run GitHub pages 
         run: |
-          echo Add other actions to build,
+          echo Adds nothing but GitHub pages to build,
           echo test, and deploy your project.
