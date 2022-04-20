@@ -10,10 +10,10 @@ on:
   pull_request:
     branches: [ master ]
 
-  # Allows you to run this workflow from GitHub pages in GitHub
-  workflow_CI:
+  # Allows you to run this workflow from GitHub origin pages in GitHub
+  package:
 
-# A workflow run is made up of GitHub pages
+# A workflow run is made up of GitHub origin pages
 jobs:
   # This workflow contains a single job called "build"
   build:
@@ -23,14 +23,23 @@ jobs:
     # Steps represent the GitHub-pages of the job
     steps:
       # $GitHub-pages, so your job can push
-      - uses: GitHub pages
-
-      # Runs GitHub pages
-      - name: Run GitHub pages
-        run: echo file petition!
+     run Supreme Court of Appeals ot the Ninth Curcuit Attend Video chat
+     with communication.
+     # Allow communication with Abiding Real Judges
+     # Commenting 
+     # with response
+     # Enabling Right to Speak  your mind.
+     # Giving Audio 💯 
+     # Runs on NoError
+     # Visibility
+     # Asks Judges for access to Your own Records
+     # Provided by the Judges 
+     # 5 to 10 minutes of their time
+   
+        
 
       # Runs GitHub pages no matter what
-      - name: Run GitHub pages 
-        run: |
-          echo Adds nothing but GitHub pages to build,
+      
+      
+  
           echo test, and deploy your project.
